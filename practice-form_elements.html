@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>User Information Form</title>
+  </head>
+  <body>
+    <h2>User Information Form</h2>
+
+    <form action="submit_form.html" method="post">
+      <!-- First Name -->
+      <label for="fname">First Name:</label><br />
+      <input type="text" id="fname" name="fname" required /><br /><br />
+
+      <!-- Last Name -->
+      <label for="lname">Last Name:</label><br />
+      <input type="text" id="lname" name="lname" required /><br /><br />
+
+      <!-- Email -->
+      <label for="email">Email:</label><br />
+      <input type="email" id="email" name="email" required /><br /><br />
+
+      <!-- Password -->
+      <label for="password">Password:</label><br />
+      <input
+        type="password"
+        id="password"
+        name="password"
+        required
+      /><br /><br />
+
+      <!-- Gender -->
+      <label>Gender:</label><br />
+      <input type="radio" id="male" name="gender" value="male" required />
+      <label for="male">Male</label><br />
+      <input type="radio" id="female" name="gender" value="female" required />
+      <label for="female">Female</label><br /><br />
+
+      <!-- Favorite Fruit -->
+      <label for="fruit">Favorite Fruit:</label><br />
+      <select id="fruit" name="fruit" required>
+        <option value="apple">Apple</option>
+        <option value="banana">Banana</option>
+        <option value="strawberry">Strawberry</option>
+        <option value="orange">Orange</option>
+        <option value="grape">Grape</option></select
+      ><br /><br />
+
+      <!-- Message -->
+      <label for="message">Message:</label><br />
+      <textarea
+        id="message"
+        name="message"
+        rows="4"
+        cols="50"
+        required
+      ></textarea
+      ><br /><br />
+
+      <!-- Submit Button -->
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
+</html>
