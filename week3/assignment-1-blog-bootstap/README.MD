@@ -11,7 +11,6 @@ This is a simple blogging website built with HTML, CSS, and Bootstrap. It showca
 ├── post1.html         # First blog post page
 ├── post2.html         # Second blog post page
 ├── style.css          # Custom CSS styles for the blog
-└── (Optional)         # Normalize.css (if used explicitly)
 ```
 
 ## Features
