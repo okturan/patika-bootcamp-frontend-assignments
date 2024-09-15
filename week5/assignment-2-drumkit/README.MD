@@ -6,9 +6,8 @@ This project is a simple web-based drum kit that allows users to play different 
 
 To use the drum kit, visit the following link in your web browser:
 
-[Drum Kit](https://okturan.github.io/patika-bootcamp-frontend-assignments/week5/assignment-2-drumkit/)
-[![Drum Kit](./drum.png)](https://okturan.github.io/patika-bootcamp-frontend-assignments/week5/assignment-2-drumkit/)
-
+[Drum Kit Simulator](https://okturan.github.io/patika-bootcamp-frontend-assignments/week5/assignment-2-drumkit/)
+![Project Screen Shot](screenshot.jpg)
 
 ### Files
 
