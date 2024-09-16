@@ -4,10 +4,7 @@ A simple and user-friendly ToDo application to help manage tasks..
 
 ## Live Demo
 
-Check out the live version of the app 
-
-
-[To-do app](https://okturan.github.io/patika-bootcamp-frontend-assignments/week5/assignment-2-drumkit/)
+Check out the  [live version of the app.](https://okturan.github.io/patika-bootcamp-frontend-assignments/week5/assignment-2-drumkit/) 
 ![Project Screen Shot](screenshot.jpg)
 
 ## Features
