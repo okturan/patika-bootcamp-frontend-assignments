@@ -24,5 +24,3 @@ Check out the live version of the app
 - **JavaScript**
 - **Bootstrap 5**
 - **Bootstrap Icons**
-
-## Usage
