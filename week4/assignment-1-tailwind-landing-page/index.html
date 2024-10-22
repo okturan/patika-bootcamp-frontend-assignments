@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="output.css" />
+    <title>Mamba Design System</title>
+  </head>
+  <body class="bg-gray-100 mx-[10%]">
+    <!-- Header -->
+    <header class="bg-white shadow p-4 mt-6 rounded-md">
+      <div class="flex justify-between items-center">
+        <div class="text-purple-600 text-2xl font-semibold">
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-12 text-purple-600" viewBox="0 0 100 100">
+            <polygon points="50 5, 93 25, 93 75, 50 95, 7 75, 7 25" class="fill-none stroke-current stroke-[5]" />
+            <text
+              x="50%"
+              y="56%"
+              text-anchor="middle"
+              dominant-baseline="middle"
+              class="fill-current text-4xl font-bold">
+              C
+            </text>
+          </svg>
+        </div>
+        <nav class="space-x-4">
+          <a href="#" class="text-gray-600 hover:text-gray-900">Link</a>
+          <a href="#" class="text-gray-600 hover:text-gray-900">Link</a>
+          <a href="#" class="text-gray-600 hover:text-gray-900">Link</a>
+          <a href="#" class="bg-purple-600 text-white px-4 py-2 rounded-full hover:bg-purple-700">Sign up</a>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Main section -->
+    <main class="mt-8">
+      <div class="grid sm:grid-cols-1 lg:grid-cols-7 gap-6">
+        <!-- Left Section -->
+        <div class="lg:col-span-3 min-w-full text-center p-14 bg-white rounded-lg shadow">
+          <h3 class="text-purple-600 text-lg font-semibold">Mamba design system</h3>
+          <h1 class="text-gray-800 text-5xl font-extrabold my-4">Build it with Mamba</h1>
+          <p class="text-gray-600 mb-6">
+            Modular and versatile. The ultimate design toolkit for savvy technology startups.
+          </p>
+          <form>
+            <div class="mb-4">
+              <input class="w-full p-3 rounded border border-gray-300" type="text" placeholder="Your name" />
+            </div>
+            <div class="mb-4">
+              <input class="w-full p-3 rounded border border-gray-300" type="email" placeholder="Email address" />
+            </div>
+            <button class="w-full bg-purple-600 text-white p-3 rounded hover:bg-purple-700" type="submit">
+              Join the waitlist
+            </button>
+          </form>
+        </div>
+        <!-- Right Section -->
+        <div class="lg:col-span-4">
+          <img
+            class="rounded-lg shadow object-cover min-w-full min-h-full h-full"
+            src="https://picsum.photos/500"
+            alt="Decorative placeholder image" />
+        </div>
+      </div>
+    </main>
+
+    <!-- How it works section -->
+    <section class="mt-8 py-4">
+      <div class="text-center mb-6">
+        <h3 class="text-purple-600 text-lg font-semibold">HOW IT WORKS</h3>
+        <h2 class="text-gray-800 text-3xl font-bold my-4">Building with Mamba is simple</h2>
+      </div>
+      <div class="flex flex-col md:flex-row justify-between space-y-4 md:space-y-0 md:space-x-4">
+        <div class="bg-white p-6 rounded-lg shadow">
+          <div class="bg-purple-600 text-white rounded-full w-10 h-10 flex justify-center items-center mb-4">1</div>
+          <h4 class="text-gray-800 text-lg font-bold">Nulla.</h4>
+          <p class="text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow">
+          <div class="bg-purple-600 text-white rounded-full w-10 h-10 flex justify-center items-center mb-4">2</div>
+          <h4 class="text-gray-800 text-lg font-bold">Accusantium.</h4>
+          <p class="text-gray-600">Vitae saepe atque neque sunt eius dolor veniam alias debitis?</p>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow">
+          <div class="bg-purple-600 text-white rounded-full w-10 h-10 flex justify-center items-center mb-4">3</div>
+          <h4 class="text-gray-800 text-lg font-bold">Maxime.</h4>
+          <p class="text-gray-600">Expedita temporibus culpa reprehenderit doloribus consectetur odio!</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Create with us section -->
+    <section class="rounded-sm mt-8">
+      <div class="text-left rounded-lg mb-6 p-6 bg-white">
+        <h2 class="text-gray-800 text-3xl font-bold">Create with us</h2>
+        <p class="text-gray-600 mt-4">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet maxime rem dolores. Neque ducimus illum maxime
+          ab natus, perferendis odio fugiat beatae quae, laboriosam reiciendis corporis! Laudantium aspernatur, corporis
+          vel consectetur voluptatibus veniam corrupti optio!
+        </p>
+      </div>
+      <div class="flex flex-col bg-white md:flex-row justify-between space-y-4 md:space-y-0 md:space-x-4">
+        <div class="overflow-hidden">
+          <img class="object-cover min-h-full" src="https://picsum.photos/600/400" alt="Showcase image" />
+        </div>
+        <div class="md:w-2/5 p-6">
+          <div class="bg-purple-600 text-white px-4 py-2 rounded-full w-fit text-sm font-bold uppercase mb-2">
+            Business
+          </div>
+          <h4 class="text-gray-800 text-xl font-bold">Curating a workplace that inspires team movement</h4>
+          <p class="text-gray-600 mt-2">November 30, 2020<br />By Leroy Jenkins</p>
+        </div>
+      </div>
+
+      <div class="flex justify-between space-x-4 mt-6">
+        <div class="bg-white p-6 rounded-lg shadow md:w-1/3">
+          <h4 class="text-gray-800 text-lg font-bold">Panel-based blocks.</h4>
+          <p class="text-gray-600">Flexible panels that are perfect for building functional layouts.</p>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow md:w-1/3">
+          <h4 class="text-gray-800 text-lg font-bold">Responsive design.</h4>
+          <p class="text-gray-600">Panels look great no matter the device.</p>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow md:w-1/3">
+          <h4 class="text-gray-800 text-lg font-bold">Premium support.</h4>
+          <p class="text-gray-600">Join over 50,000 satisfied customers who use our templates.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Our team section -->
+    <section class="p-10 bg-white rounded-lg shadow mt-8">
+      <div class="text-center mb-6">
+        <h2 class="text-gray-800 text-3xl font-bold">Our team is here to help you.</h2>
+        <p class="text-purple-600 mt-4">Meet our crew &gt;</p>
+      </div>
+      <div class="rounded-lg overflow-hidden">
+        <img class="rounded-lg" src="https://picsum.photos/1200/400" alt="Team image" />
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer
+      class="flex justify-between items-center px-4 bg-white py-4 my-8 rounded-lg shadow text-center text-purple-600 text-sm">
+      <p class="text-lg">Mamba</p>
+      <div class="flex justify-center space-x-4">
+        <a href="#" class="text-purple-600 hover:text-purple-700">
+          <svg class="h-5 w-5" fill="currentColor" viewBox="0 0 24 24">
+            <path
+              d="M23 3c0-1.103-.897-2-2-2H3C1.897 1 1 1.897 1 3v18c0 1.103.897 2 2 2h9v-7h-3v-3h3v-2c0-1.795.926-3 3-3 .551 0 1.105.007 1.663.018C16.401 9.719 16 10.542 16 11v3h3l-.219 3H16v7h5c1.103 0 2-.897 2-2V3z" />
+          </svg>
+        </a>
+        <a href="#" class="text-purple-600 hover:text-purple-700">
+          <svg class="h-5 w-5" fill="currentColor" viewBox="0 0 24 24">
+            <path
+              d="M12 0C5.37 0 0 5.373 0 12c0 5.302 3.438 9.8 8.206 11.387.599.109.823-.26.823-.578 0-.285-.015-1.241-.015-2.256-3.338.726-4.042-1.162-4.042-1.162C4.422 17.6 3.633 17.2 3.633 17.2c-1.086-.744.086-.729.086-.729 1.206.086 1.84 1.239 1.84 1.239 1.071 1.843 2.809 1.309 3.495.997.102-.776.42-1.309.76-1.609-2.666-.302-5.466-1.333-5.466-5.933 0-1.311.465-2.381 1.236-3.22-.123-.301-.535-1.521.117-3.176 0 0 1.006-.321 3.3 1.23.957-.267 1.98-.399 3-.403 1.02.004 2.042.136 3 .403 2.292-1.551 3.3-1.23 3.3-1.23.654 1.655.242 2.875.12 3.176.77.84 1.235 1.91 1.235 3.22 0 4.61-2.804 5.629-5.475 5.926.432.37.816 1.102.816 2.222 0 1.604-.015 2.898-.015 3.292 0 .319.223.693.834.576C20.565 21.795 24 17.298 24 12c0-6.627-5.373-12-12-12z" />
+          </svg>
+        </a>
+      </div>
+    </footer>
+  </body>
+</html>
