@@ -6,9 +6,6 @@ This is a new project for creating a versatile and responsive contact page using
 
 You can see a live demo of the project at the following link:
 [Live Demo](https://okturan.github.io/patika-bootcamp-frontend-assignments/week4/assignment-2-tailwind-review-page/)
-
-## Screenshot
-
 ![Screenshot](screenshot.jpg)
 
 ## Features
