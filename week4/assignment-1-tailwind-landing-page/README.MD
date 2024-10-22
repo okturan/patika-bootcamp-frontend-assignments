@@ -5,11 +5,11 @@ This is a practice project for exploring and using Tailwind CSS. This project sh
 ## Live Demo
 
 You can see a live demo of the project at the following link:
-[Live Demo](http://your-live-demo-link.com)
+[Live Demo](https://okturan.github.io/patika-bootcamp-frontend-assignments/week4/assignment-1-tailwind-landing-page/)
 
 ## Screenshot
 
-![Screenshot](path/to/screenshot.png)
+![Screenshot](screenshot.jpg)
 
 ## Features
 
